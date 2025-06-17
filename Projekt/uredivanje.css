@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+p {
+	color: antiquewhite;
+	font:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color:darkslategray;
+	padding: 20px;
+}
+h3, h2, h1{
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	color:azure;
+}
+body{
+	background-image:url("../Projekt/pozadina.png")
+}
+a: link {
+	color:cornsilk;
+	background-color:darkslategray;
+	padding: 5px;
+	line-height: 40px;
+	border: 1px solid #2E3876;
+}
+ul{
+	color:burlywood;
+}
