@@ -1,5 +1,11 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face {
+  font-family: 'MojFont';                 /* ime koje TI biraš */
+  src: url('fontovi/mojfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 p {
 	color: antiquewhite;
 	font:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
@@ -8,10 +14,6 @@ p {
 	width: 600px;
 	background-color:darkslategray;
 	padding: 20px;
-}
-h3, h2, h1{
-	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	color:azure;
 }
 body{
 	background-image:url("../Projekt/pozadina.png")
@@ -23,6 +25,27 @@ a: link {
 	line-height: 40px;
 	border: 1px solid #2E3876;
 }
+a:hover{
+	background-color:black;
+	color: antiquewhite;
+}
+a href:color{
+	color: bisque
+}
 ul{
 	color:burlywood;
 }
+/* Ostale razine naslova zadrži postojeći sans-serif */
+h2, h3, h4 {
+  font-family: "Gill Sans", "Gill Sans MT",
+               "Myriad Pro", "DejaVu Sans Condensed",
+               Helvetica, Arial, sans-serif;
+  color: azure;
+}
+h1 {
+  font-family: 'MojFont', "Gill Sans", "Gill Sans MT", "Myriad Pro",
+               "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: aliceblue;
+}
+
+
